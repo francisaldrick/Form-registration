@@ -76,5 +76,5 @@ def signup():
         msg = 'Please fill out the form !'
     return render_template('new_account.html', msg = msg) 
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     app.run()
