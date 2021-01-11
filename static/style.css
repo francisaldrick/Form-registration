@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(scenary.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.lbox{
+    width: 320px;
+    height: 420px;
+    background: black;
+    color:white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    opacity: 80%;
+    padding: 70px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.lbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.lbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.lbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline:none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.lbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.lbox input[type="submit"]:hover
+{
+    cursor:pointer;
+    background: #ffc107;
+    color: black;
+}
+
+.lbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.lbox a:hover
+{
+    color: #ffc107;
+}
+
+.nabox{
+    width: 320px;
+    height: 620px;
+    background: black;
+    color:white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    opacity: 80%;
+    padding: 70px 30px;
+}
+
+.nabox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.nabox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.nabox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline:none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.nabox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.nabox input[type="submit"]:hover
+{
+    cursor:pointer;
+    background: #ffc107;
+    color: black;
+}
+
+.btn{
+    width: 320px;
+    height: 320px;
+    background: black;
+    color:white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    opacity: 80%;
+    padding: 70px 30px;
+}
+
+.btn input[type="submit"]
+{   
+    align-content: center;
+    top: 50%;
+    left: 50%;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100px;
+    background:blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}

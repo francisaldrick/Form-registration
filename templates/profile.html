@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>login form</title>
+        <link rel="stylesheet" type="text/css" href="../static/style.css">
+    
+    <body>
+        <div class="lbox">
+            <h2 style="text-align:center">User Profile</h2>
+
+            <div class="card">
+            <h1>{{session.name}}</h1>
+            <p>{{session.address}}</p>
+            <p>{{session.email}}</p>
+            <div style="margin: 24px 0;">
+            </div>
+                <button type="submit"><a href="/logout">Logout</a></button>
+            </div>
+            </div>
+            </div>
+        
+    </body>
+    </head>
+</html>
