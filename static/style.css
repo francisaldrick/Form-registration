@@ -135,8 +135,8 @@ h1{
 }
 
 .btn{
-    width: 320px;
-    height: 320px;
+    width: 280px;
+    height: 200px;
     background: black;
     color:white;
     top: 50%;
@@ -174,4 +174,8 @@ h1{
 .title {
     color: grey;
     font-size: 18px;
+}
+
+.msg{
+    font-family: sans-serif;
 }
